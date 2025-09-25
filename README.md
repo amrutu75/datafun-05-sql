@@ -4,7 +4,7 @@
 In this module, we use sqlite3 from the Python Standard Library to interact with SQL data using Python. 
 
 **Learning Outcome**
-- To be able to crrate and manipulate database using Python and SQL
+- To be able to create and manipulate database using Python and SQL
 - To undeststand the basic file-based relational databases like SQLite and may get a bit of practice reading CSV files with pandas.
 - Offer a lightweight starting point for assignment or self-study in data analysis.
 
