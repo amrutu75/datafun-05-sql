@@ -1,0 +1,12 @@
+2025-09-28 17:36:26.275 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-28 17:36:26.276 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-28 17:36:26.276 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-09-28 17:36:26.277 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-09-28 17:36:26.277 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-09-28 17:36:26.277 | INFO     | __main__:main:65 - Database connection closed.
+2025-09-28 17:39:13.386 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-28 17:39:13.386 | INFO     | __main__:main:38 - Starting database setup...
+2025-09-28 17:39:13.387 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-09-28 17:39:13.387 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-09-28 17:39:13.387 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-09-28 17:39:13.388 | INFO     | __main__:main:65 - Database connection closed.
