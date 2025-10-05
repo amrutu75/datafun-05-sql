@@ -34,3 +34,35 @@
 2025-10-04 01:49:04.241 | ERROR    | __main__:execute_sql_file:29 - Failed to execute C:\Repos\datafun-05-sql\sql_features\01_new_column_pub_age.sql: no such table: books
 2025-10-04 01:49:04.242 | ERROR    | __main__:main:60 - Error during feature queries execution: no such table: books
 2025-10-04 01:49:04.242 | INFO     | __main__:main:63 - Database connection closed.
+2025-10-04 01:58:46.141 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-10-04 01:58:46.141 | INFO     | __main__:main:38 - Starting database setup...
+2025-10-04 01:58:46.142 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-10-04 01:58:46.142 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 01:58:46.142 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 01:58:46.143 | INFO     | __main__:main:65 - Database connection closed.
+2025-10-04 02:03:48.364 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-10-04 02:03:48.365 | INFO     | __main__:main:38 - Starting database setup...
+2025-10-04 02:03:48.365 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-10-04 02:03:48.365 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 02:03:48.365 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 02:03:48.366 | INFO     | __main__:main:65 - Database connection closed.
+2025-10-04 02:04:16.661 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-10-04 02:04:16.662 | INFO     | __main__:main:38 - Starting database setup...
+2025-10-04 02:04:16.662 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-10-04 02:04:16.663 | ERROR    | __main__:execute_sql_file:32 - Failed to execute C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 02:04:16.663 | ERROR    | __main__:main:62 - Error during database setup: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-05-sql\\sql_create\\01_drop_tables.sql'
+2025-10-04 02:04:16.663 | INFO     | __main__:main:65 - Database connection closed.
+2025-10-04 02:09:19.002 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-10-04 02:09:19.002 | INFO     | __main__:main:38 - Starting database setup...
+2025-10-04 02:09:19.003 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-10-04 02:09:19.005 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\01_drop_tables.sql
+2025-10-04 02:09:19.025 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\02_create_tables.sql
+2025-10-04 02:09:19.029 | INFO     | __main__:execute_sql_file:30 - Executed: C:\Repos\datafun-05-sql\sql_create\03_insert_records.sql
+2025-10-04 02:09:19.029 | INFO     | __main__:main:60 - Database setup completed successfully.
+2025-10-04 02:09:19.029 | INFO     | __main__:main:65 - Database connection closed.
+2025-10-04 02:10:06.164 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-10-04 02:10:06.164 | INFO     | __main__:main:36 - Starting feature queries execution...
+2025-10-04 02:10:06.166 | INFO     | __main__:main:52 - Connected to database: C:\Repos\datafun-05-sql\data\db.sqlite
+2025-10-04 02:10:06.180 | INFO     | __main__:execute_sql_file:27 - Executed: C:\Repos\datafun-05-sql\sql_features\01_new_column_pub_age.sql
+2025-10-04 02:10:06.180 | INFO     | __main__:main:58 - Feature queries execution completed successfully.
+2025-10-04 02:10:06.181 | INFO     | __main__:main:63 - Database connection closed.
